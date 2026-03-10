@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
+    background: linear-gradient(#FFCC00, #0035AD );
     color: #ffffff;
 }
 
@@ -9,8 +9,9 @@ h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
 }
 
-#bff-img {
-    width: 150px;
+#dad-img {
+    width: 350px;
+    height:350px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
     margin-bottom: 10px;
@@ -62,12 +63,12 @@ h1, h2, h3, h4, p {
     background-size: cover;
 }
 
-#gift-img-happy:hover {
-    background-image: url("images/happy.gif");
+#gift-img-dapper:hover {
+    background-image: url("images/Dapper.JPG");
 }
 
-#gift-img-hot:hover {
-    background-image: url("images/hot.gif");
+#gift-img-family:hover {
+    background-image: url("images/Family.JPG");
 }
 
 #gift-img-genius:hover {
@@ -92,14 +93,3 @@ a {
     color: white;
 }
 
-/* 
-Add the footer paragraph according to the design. 
-Configure the anchor tag to open the link in a new tab.
-Forgotten how to do it? Google it! 
-
-Link: 
-https://scrimba.com/learn/htmlandcss
-
-Text:
-Want to create your own Birthday GIFt site? Take this HTML & CSS course.
-*/
